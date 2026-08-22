@@ -5,35 +5,6 @@ Focused on building problem-solving skills for software engineering roles in the
 
 ---
 
-## 📊 Progress Tracker
-
-| Topic                              | Solved | Total | Status          |
-|------------------------------------|--------|-------|---------------- |
-| Arrays & Hashmaps                  | 1      | 12    | 🔄 In progress |
-| Sliding Window & Two Pointers      | 0      | 14    | ⏳ Not started |
-| Stack                              | 0      | 10    | ⏳ Not started |
-| Binary Search                      | 0      | 12    | ⏳ Not started |
-| Linked List                        | 0      | 12    | ⏳ Not started |
-| Trees & BST                        | 0      | 19    | ⏳ Not started |
-| Trie / Prefix Trees                | 0      | 5     | ⏳ Not started |
-| Heap / Priority Q                  | 0      | 12    | ⏳ Not started |
-| Dynamic Programming                | 0      | 21    | ⏳ Not started |
-| Intervals                          | 8      | 13    | ⏳ Not started |
-| Matrices & Grids                   | 0      | 9     | ⏳ Not started |
-| Bactracking                        | 0      | 12    | ⏳ Not started |
-| Graphs                             | 0      | 17    | ⏳ Not started |
-| Union Find                         | 0      | 7     | ⏳ Not started |
-| Shortest Path                      | 0      | 5     | ⏳ Not started |
-| Bit Manipulation                   | 0      | 8     | ⏳ Not started |
-| Math & Strings & Parsing           | 0      | 6     | ⏳ Not started |
-| Design                             | 0      | 5     | ⏳ Not started |
-| Prefix Sum/Difference Array/Kadane | 0      | 10    | ⏳ Not started |
-
-
-
-
----
-
 ## 🗂️ Folder Structure
 
 ```

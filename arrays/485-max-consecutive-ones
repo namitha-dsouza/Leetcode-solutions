@@ -1,0 +1,32 @@
+/**
+ * {485} - {Max Consecutive Ones}
+ * Difficulty: Easy 
+ * Link: https://leetcode.com/problems/max-consecutive-ones/description/
+ *
+ * Approach: one-line description of the strategy
+ * Time:  O(n)
+ * Space: O(1)
+ */
+
+ /**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var findMaxConsecutiveOnes = function(nums) {
+    let count =0;
+    let maxCount = 0;
+    let i;
+    for(i=0;i<nums.length;i++){
+        if(nums[i] == 1){
+            count++;
+            maxCount = Math.max(maxCount, count);
+            continue;
+        }
+        else{
+            count = 0;
+            continue;
+        }
+
+    }
+    return Math.max(maxCount, count)
+};

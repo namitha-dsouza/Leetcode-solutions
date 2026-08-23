@@ -1,0 +1,24 @@
+/**
+ * {1295} - {Find Numbers with Even Number of Digits}
+ * Difficulty: Easy
+ * Link: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/
+ *
+ * Approach: one-line description of the strategy
+ * Time:  O(n)
+ * Space: O(1)
+ */
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var findNumbers = function(nums) {
+    let i = 0;
+    let count = 0;
+    let totalCount = 0;
+    for (i ; i< nums.length; i++){
+        if(nums[i].toString().length % 2 == 0){
+            totalCount++
+        }
+    }
+    return totalCount
+};

@@ -1,0 +1,30 @@
+/**
+ * {977} - {Squares of a Sorted Array}
+ * Difficulty: Easy
+ * Link: https://leetcode.com/problems/squares-of-a-sorted-array/description/
+ *
+ * Approach: one-line description of the strategy
+ * Time:  O(n)
+ * Space: O(n)
+ */
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var sortedSquares = function(nums) {
+    let n = nums.length;
+    let l = 0;
+    let r = n-1;
+    let result = new Array(n)
+    for(let i= n-1; i>=0;i--){
+        let val;
+        if(Math.abs(nums[l]) > Math.abs(nums[r])){
+            val = nums[l];
+            l++;
+        }else {
+            val = nums[r];
+            r--;
+        }result[i] = val* val;
+    }
+    return result;
+};

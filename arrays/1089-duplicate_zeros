@@ -1,0 +1,36 @@
+/**
+ * {1089} - {Duplicate Zeros}
+ * Difficulty: Easy
+ * Link: https://leetcode.com/problems/duplicate-zeros/description/
+ *
+ * Approach: one-line description of the strategy
+ * Time:  O(n)
+ * Space: O(n)
+ */
+/**
+ * @param {number[]} arr
+ * @return {void} Do not return anything, modify arr in-place instead.
+ */
+var duplicateZeros = function(arr) {
+    let countOfZeros = 0;
+    let boundary = arr.length -1;
+    for(let i=0; i< arr.length ;i++){
+        if(arr[i] == 0){
+            if(boundary + countOfZeros != arr.length -1){
+            break;
+        }
+            countOfZeros++;
+            boundary = boundary -1;
+        
+    }}
+    for (let j=arr.length-1;j <= 0;j--){
+        if(arr[j] == 0 && (arr[j] + boundary) == arr.length -1 ){
+            
+        }
+        else if(arr[j] == 0 && (arr[j] + boundary) != arr.length -1 ){
+            arr[j]= arr[boundary];
+            boundary --;
+        }
+
+    }
+};
